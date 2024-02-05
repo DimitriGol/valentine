@@ -52,9 +52,19 @@ button:hover{
 
 
 .no-btn {
-    padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 15px; /* Set a fixed font size for the 'No' button */
     background-color: rgb(246, 38, 38);
+}
+
+
+.hearts-gif{
+    width: 600px;
+}
+
+.yes-title{
+    font-size: 50px;
 }
