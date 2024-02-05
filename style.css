@@ -1,0 +1,60 @@
+html, body {
+    font-family: 'Playfair Display', serif;
+    background-color: pink;
+    height: 100%;
+    margin: 0;
+    overflow: hidden; /* Hide scrollbars */
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure the container takes the full height of the viewport */
+}
+
+.title {
+    text-align: center;
+    font-size: 80px;
+    font-weight: 900;
+    margin-bottom: 20px; /* Add some space between title and gif */
+}
+
+.gif {
+    width: 300px;
+    margin-bottom: 20px; /* Add some space between gif and buttons */
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    margin: 30px;
+    border-style: none;
+    border-width: 1px;
+    border-color: black;
+}
+button:hover{
+    cursor: pointer;
+}
+
+
+.yes-btn {
+    background-color: rgb(31, 216, 31);
+}
+
+
+.no-btn {
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 15px; /* Set a fixed font size for the 'No' button */
+    background-color: rgb(246, 38, 38);
+}
